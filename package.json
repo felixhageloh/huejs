@@ -1,0 +1,28 @@
+{
+  "name": "huejs",
+  "version": "0.0.0",
+  "description": "A module to control Philips Hue lamps",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/jasmine-node/bin/jasmine-node --coffee --captureExceptions spec/"
+  },
+  "keywords": [
+    "hue",
+    "philips",
+    "lamps"
+  ],
+  "author": "Felix Hageloh",
+  "license": "BSD",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:felixhageloh/huejs.git"
+  },
+  "devDependencies": {
+    "jasmine-node": "~1.11.0",
+    "coffee-script": "~1.6.3"
+  },
+  "dependencies": {
+    "request": "~2.27.0",
+    "node-ssdp": "~0.1.1"
+  }
+}
